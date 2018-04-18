@@ -22,7 +22,6 @@ Navdeep Singh [GitHub](https://github.com/snavdeepsingh)
 * npm packages :
                     - [mysql]
                     - [inquirer]
-                    - [colors/safe]
                     - [cli-table]
 
 
