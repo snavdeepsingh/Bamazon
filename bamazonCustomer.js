@@ -79,8 +79,8 @@ function purchaseItem(productID) {
                 if (err) console.log(err);
 
                 if (res[0].stock_quantity < productPurchased[0].quantity) {
+                    // Only ${res[0].stock_quantity} available.
                     console.log(`
-                        Only ${res[0].stock_quantity} available.
                         Sorry...can't process this order.
                         `);
                     connection.end();
